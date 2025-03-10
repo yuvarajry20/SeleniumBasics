@@ -1,0 +1,178 @@
+package com.webelements;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SparIndia1 {
+
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.sparindia.com/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+        // XPath Locators
+        WebElement logoXpath = driver.findElement(By.xpath("//img[@alt='SPAR Logo']"));
+        WebElement homeLinkXpath = driver.findElement(By.xpath("//a[@href='/']"));
+        WebElement aboutUsLinkXpath = driver.findElement(By.xpath("//a[@href='/about-us']"));
+        WebElement contactUsLinkXpath = driver.findElement(By.xpath("//a[@href='/contact-us']"));
+        WebElement careersLinkXpath = driver.findElement(By.xpath("//a[@href='/careers']"));
+        WebElement newsLinkXpath = driver.findElement(By.xpath("//a[@href='/news']"));
+        WebElement offersLinkXpath = driver.findElement(By.xpath("//a[@href='/offers']"));
+        WebElement storesLinkXpath = driver.findElement(By.xpath("//a[@href='/stores']"));
+        WebElement faqLinkXpath = driver.findElement(By.xpath("//a[@href='/faq']"));
+        WebElement privacyPolicyLinkXpath = driver.findElement(By.xpath("//a[@href='/privacy-policy']"));
+        WebElement termsAndConditionsLinkXpath = driver.findElement(By.xpath("//a[@href='/terms-and-conditions']"));
+        WebElement sitemapLinkXpath = driver.findElement(By.xpath("//a[@href='/sitemap']"));
+        WebElement cookiePolicyLinkXpath = driver.findElement(By.xpath("//a[@href='/cookie-policy']"));
+        WebElement accessibilityStatementLinkXpath = driver.findElement(By.xpath("//a[@href='/accessibility-statement']"));
+        WebElement siteMapLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map']"));
+        WebElement siteMapXmlLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.xml']"));
+        WebElement siteMapHtmlLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.html']"));
+        WebElement siteMapJsonLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.json']"));
+        WebElement siteMapSitemapLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.sitemap']"));
+        WebElement siteMapRssLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.rss']"));
+        WebElement siteMapAtomLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.atom']"));
+        WebElement siteMapRdfLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.rdf']"));
+        WebElement siteMapOpmlLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.opml']"));
+        WebElement siteMapTxtLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.txt']"));
+        WebElement siteMapCsvLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.csv']"));
+        WebElement siteMapTsvLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.tsv']"));
+        WebElement siteMapXlsLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.xls']"));
+        WebElement siteMapXlsxLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.xlsx']"));
+        WebElement siteMapOdsLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.ods']"));
+        WebElement siteMapPdfLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.pdf']"));
+        WebElement siteMapDocLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.doc']"));
+        WebElement siteMapDocxLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.docx']"));
+        WebElement siteMapOdtLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.odt']"));
+        WebElement siteMapRtfLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.rtf']"));
+        WebElement siteMapTexLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.tex']"));
+        WebElement siteMapMdLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.md']"));
+        WebElement siteMapHtmlLinkXpath2 = driver.findElement(By.xpath("//a[@href='/site-map.html']"));
+        WebElement siteMapHtmLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.htm']"));
+        WebElement siteMapShtmlLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.shtml']"));
+        WebElement siteMapShtmLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.shtm']"));
+        WebElement siteMapPhtmlLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.phtml']"));
+        WebElement siteMapPhpLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.php']"));
+        WebElement siteMapAspLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.asp']"));
+        WebElement siteMapAspxLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.aspx']"));
+        WebElement siteMapJspLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.jsp']"));
+        WebElement siteMapJsLinkXpath = driver.findElement(By.xpath("//a[@href='/site-map.js']"));
+        WebElement siteMapJsonLinkXpath2 = driver.findElement(By.xpath("//a[@href='/site-map.json']"));
+        WebElement siteMapXmlLinkXpath2 = driver.findElement(By.xpath("//a[@href='/site-map.xml']"));
+        WebElement siteMapRssLinkXpath2 = driver.findElement(By.xpath("//a[@href='/site-map.rss']"));
+        WebElement siteMapAtomLinkXpath2 = driver.findElement(By.xpath("//a[@href='/site-map.atom']"));
+
+        // CSS Selector Locators
+        WebElement logoCss = driver.findElement(By.cssSelector("img[alt='SPAR Logo']"));
+        WebElement homeLinkCss = driver.findElement(By.cssSelector("a[href='/']"));
+        WebElement aboutUsLinkCss = driver.findElement(By.cssSelector("a[href='/about-us']"));
+        WebElement contactUsLinkCss = driver.findElement(By.cssSelector("a[href='/contact-us']"));
+        WebElement careersLinkCss = driver.findElement(By.cssSelector("a[href='/careers']"));
+        WebElement newsLinkCss = driver.findElement(By.cssSelector("a[href='/news']"));
+        WebElement offersLinkCss = driver.findElement(By.cssSelector("a[href='/offers']"));
+        WebElement storesLinkCss = driver.findElement(By.cssSelector("a[href='/stores']"));
+        WebElement faqLinkCss = driver.findElement(By.cssSelector("a[href='/faq']"));
+        WebElement privacyPolicyLinkCss = driver.findElement(By.cssSelector("a[href='/privacy-policy']"));
+        WebElement termsAndConditionsLinkCss = driver.findElement(By.cssSelector("a[href='/terms-and-conditions']"));
+        WebElement sitemapLinkCss = driver.findElement(By.cssSelector("a[href='/sitemap']"));
+        WebElement cookiePolicyLinkCss = driver.findElement(By.cssSelector("a[href='/cookie-policy']"));
+        WebElement accessibilityStatementLinkCss = driver.findElement(By.cssSelector("a[href='/accessibility-statement']"));
+        WebElement siteMapLinkCss = driver.findElement(By.cssSelector("a[href='/site-map']"));
+        WebElement siteMapXmlLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.xml']"));
+        WebElement siteMapHtmlLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.html']"));
+        WebElement siteMapJsonLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.json']"));
+        WebElement siteMapSitemapLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.sitemap']"));
+        WebElement siteMapRssLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.rss']"));
+        WebElement siteMapAtomLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.atom']"));
+        WebElement siteMapRdfLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.rdf']"));
+        WebElement siteMapOpmlLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.opml']"));
+        WebElement siteMapTxtLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.txt']"));
+        WebElement siteMapCsvLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.csv']"));
+        WebElement siteMapTsvLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.tsv']"));
+        WebElement siteMapXlsLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.xls']"));
+        WebElement siteMapXlsxLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.xlsx']"));
+        WebElement siteMapOdsLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.ods']"));
+        WebElement siteMapPdfLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.pdf']"));
+        WebElement siteMapDocLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.doc']"));
+        WebElement siteMapDocxLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.docx']"));
+        WebElement siteMapOdtLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.odt']"));
+        WebElement siteMapRtfLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.rtf']"));
+        WebElement siteMapTexLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.tex']"));
+        WebElement siteMapMdLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.md']"));
+        WebElement siteMapHtmlLinkCss2 = driver.findElement(By.cssSelector("a[href='/site-map.html']"));
+        WebElement siteMapHtmLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.htm']"));
+        WebElement siteMapShtmlLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.shtml']"));
+        WebElement siteMapShtmLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.shtm']"));
+        WebElement siteMapPhtmlLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.phtml']"));
+        WebElement siteMapPhpLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.php']"));
+        WebElement siteMapAspLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.asp']"));
+        WebElement siteMapAspxLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.aspx']"));
+        WebElement siteMapJspLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.jsp']"));
+        WebElement siteMapJsLinkCss = driver.findElement(By.cssSelector("a[href='/site-map.js']"));
+        WebElement siteMapJsonLinkCss2 = driver.findElement(By.cssSelector("a[href='/site-map.json']"));
+        WebElement siteMapXmlLinkCss2 = driver.findElement(By.cssSelector("a[href='/site-map.xml']"));
+        WebElement siteMapRssLinkCss2 = driver.findElement(By.cssSelector("a[href='/site-map.rss']"));
+        WebElement siteMapAtomLinkCss2 = driver.findElement(By.cssSelector("a[href='/site-map.atom']"));
+
+        // Normal Paths (Similar to CSS Selectors)
+        WebElement logoNormal = driver.findElement(By.cssSelector("img[alt='SPAR Logo']"));
+        WebElement homeLinkNormal = driver.findElement(By.cssSelector("a[href='/']"));
+        WebElement aboutUsLinkNormal = driver.findElement(By.cssSelector("a[href='/about-us']"));
+        WebElement contactUsLinkNormal = driver.findElement(By.cssSelector("a[href='/contact-us']"));
+        WebElement careersLinkNormal = driver.findElement(By.cssSelector("a[href='/careers']"));
+        WebElement newsLinkNormal = driver.findElement(By.cssSelector("a[href='/news']"));
+        WebElement offersLinkNormal = driver.findElement(By.cssSelector("a[href='/offers']"));
+        WebElement storesLinkNormal = driver.findElement(By.cssSelector("a[href='/stores']"));
+        WebElement faqLinkNormal = driver.findElement(By.cssSelector("a[href='/faq']"));
+        WebElement privacyPolicyLinkNormal = driver.findElement(By.cssSelector("a[href='/privacy-policy']"));
+        WebElement termsAndConditionsLinkNormal = driver.findElement(By.cssSelector("a[href='/terms-and-conditions']"));
+        WebElement sitemapLinkNormal = driver.findElement(By.cssSelector("a[href='/sitemap']"));
+        WebElement cookiePolicyLinkNormal = driver.findElement(By.cssSelector("a[href='/cookie-policy']"));
+        WebElement accessibilityStatementLinkNormal = driver.findElement(By.cssSelector("a[href='/accessibility-statement']"));
+        WebElement siteMapLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map']"));
+        WebElement siteMapXmlLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.xml']"));
+        WebElement siteMapHtmlLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.html']"));
+        WebElement siteMapJsonLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.json']"));
+        WebElement siteMapSitemapLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.sitemap']"));
+        WebElement siteMapRssLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.rss']"));
+        WebElement siteMapAtomLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.atom']"));
+        WebElement siteMapRdfLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.rdf']"));
+        WebElement siteMapOpmlLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.opml']"));
+        WebElement siteMapTxtLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.txt']"));
+        WebElement siteMapCsvLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.csv']"));
+        WebElement siteMapTsvLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.tsv']"));
+        WebElement siteMapXlsLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.xls']"));
+        WebElement siteMapXlsxLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.xlsx']"));
+        WebElement siteMapOdsLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.ods']"));
+        WebElement siteMapPdfLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.pdf']"));
+        WebElement siteMapDocLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.doc']"));
+        WebElement siteMapDocxLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.docx']"));
+        WebElement siteMapOdtLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.odt']"));
+        WebElement siteMapRtfLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.rtf']"));
+        WebElement siteMapTexLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.tex']"));
+        WebElement siteMapMdLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.md']"));
+        WebElement siteMapHtmlLinkNormal2 = driver.findElement(By.cssSelector("a[href='/site-map.html']"));
+        WebElement siteMapHtmLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.htm']"));
+        WebElement siteMapShtmlLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.shtml']"));
+        WebElement siteMapShtmLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.shtm']"));
+        WebElement siteMapPhtmlLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.phtml']"));
+        WebElement siteMapPhpLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.php']"));
+        WebElement siteMapAspLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.asp']"));
+        WebElement siteMapAspxLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.aspx']"));
+        WebElement siteMapJspLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.jsp']"));
+        WebElement siteMapJsLinkNormal = driver.findElement(By.cssSelector("a[href='/site-map.js']"));
+        WebElement siteMapJsonLinkNormal2 = driver.findElement(By.cssSelector("a[href='/site-map.json']"));
+        WebElement siteMapXmlLinkNormal2 = driver.findElement(By.cssSelector("a[href='/site-map.xml']"));
+        WebElement siteMapRssLinkNormal2 = driver.findElement(By.cssSelector("a[href='/site-map.rss']"));
+        WebElement siteMapAtomLinkNormal2 = driver.findElement(By.cssSelector("a[href='/site-map.atom']"));
+
+        logoXpath.click();
+
+        driver.quit();
+    }
+}
