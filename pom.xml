@@ -123,6 +123,7 @@
 <mainClass>com.webelements.Selectexercise</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.Selectbasics</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.Bstackdemo</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.DropDownJSDemo</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
