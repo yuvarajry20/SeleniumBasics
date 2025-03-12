@@ -125,6 +125,7 @@
 <mainClass>com.webelements.Bstackdemo</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.DropDownJSDemo</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.WebElementActions</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.Leafground</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
