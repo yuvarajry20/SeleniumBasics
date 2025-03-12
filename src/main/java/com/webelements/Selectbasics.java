@@ -1,6 +1,8 @@
 package com.webelements;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -23,10 +25,16 @@ public class Selectbasics {
 		for(WebElement is: list1) {
 			System.out.println("The drop down options are: "+is.getText());
 		}
+		List<String> list2=new ArrayList<>();
+		for(WebElement options:list1) {
+			list2.add(options.getText());
+		}
+		Collections.sort(list2);
+		System.out.println(list2);
 		boolean multiple=dropdown.isMultiple();
 		System.out.println("The multiple options available: "+multiple);
 		dropdown.selectByVisibleText("Puppeteer");
 		dropdown.selectByIndex(1);
+		driver.close();
 	}
-
 }
