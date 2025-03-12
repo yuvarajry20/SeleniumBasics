@@ -35,6 +35,6 @@ public class Selectbasics {
 		System.out.println("The multiple options available: "+multiple);
 		dropdown.selectByVisibleText("Puppeteer");
 		dropdown.selectByIndex(1);
-		driver.close();
+//		driver.close();
 	}
 }
