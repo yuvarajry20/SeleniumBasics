@@ -21,6 +21,18 @@ public class DragandDrop {
 		Actions action=new Actions(driver);
 		action.clickAndHold(box1).moveToElement(box2).release().build().perform();
 //		action.dragAndDrop(box1, box2);
+		String actualcolor=box2.getCssValue("color");
+		String expectedcolor="rgba(0, 0, 0, 1)";
+		if(actualcolor.equals(expectedcolor)) {
+			System.out.println("The color is matched!");
+			System.out.println("Actual color: "+actualcolor);
+			System.out.println("Expected color: "+expectedcolor);
+		}else {
+			System.out.println("The color is not matched!");
+			System.out.println("Actual color: "+actualcolor);
+			System.out.println("Expected color: "+expectedcolor);
+		}
+		
 		
 	}
 
