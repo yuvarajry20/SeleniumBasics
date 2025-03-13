@@ -19,7 +19,10 @@ public class WebElementActions {
 		WebElement bohsmenuElement=driver.findElement(By.id("blogsmenu"));
 		Actions action=new Actions(driver);
 		action.moveToElement(bohsmenuElement).perform();
-		WebElement option2=driver.findElement(By.xpath("//span[text()='SeleniumByArun']"));
-		action.moveToElement(option2).click().build().perform();
+//		WebElement option2=driver.findElement(By.xpath("//span[text()='SeleniumByArun']"));
+//		action.moveToElement(option2).click().build().perform();
+		WebElement searchfield=driver.findElement(By.xpath("//input[@name='q']"));
+		action.contextClick(searchfield).perform();
+
 	}
 }
