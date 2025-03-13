@@ -129,6 +129,7 @@
 <mainClass>com.webelements.DragandDrop</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.WindowSwitchDemo</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.OmayoWindowSwitch</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.LeafGroundWindow</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
