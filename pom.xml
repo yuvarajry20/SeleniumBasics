@@ -127,6 +127,7 @@
 <mainClass>com.webelements.WebElementActions</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.Leafground</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.DragandDrop</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.WindowSwitchDemo</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
