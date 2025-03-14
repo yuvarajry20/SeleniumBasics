@@ -133,6 +133,7 @@
 <mainClass>com.webelements.IFrame_Demoqa</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.IFrame_leafground</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.Alerts_omayo</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.Alerts_Demoqa</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
