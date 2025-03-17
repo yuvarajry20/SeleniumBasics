@@ -7,10 +7,10 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
-        stage('Test') {
+        stage('Run Main Class') {
             steps {
-                // Run tests
-                sh 'mvn test'
+                // Run the main class using the exec-maven-plugin
+                sh 'mvn exec:java'
             }
         }
     }
