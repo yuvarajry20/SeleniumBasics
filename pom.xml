@@ -137,6 +137,7 @@
 <mainClass>com.webelements.Statictable</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.CalenderDemo</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.JavaScriptExecutor</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.TutorialNinjaJavaScript</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
