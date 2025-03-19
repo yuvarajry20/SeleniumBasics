@@ -138,6 +138,8 @@
 <mainClass>com.webelements.CalenderDemo</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.JavaScriptExecutor</mainClass> <!-- Replace with your actual main class -->
 <mainClass>com.webelements.TutorialNinjaJavaScript</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.JavaScriptFlash</mainClass> <!-- Replace with your actual main class -->
+<mainClass>com.webelements.JavaScriptCalender</mainClass> <!-- Replace with your actual main class -->
 </configuration>
 </execution>
 </executions>
